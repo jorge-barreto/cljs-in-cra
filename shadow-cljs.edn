@@ -1,7 +1,8 @@
-;; ;; shadow-cljs configuration
+;; shadow-cljs configuration
 {:source-paths ["src"]
  :dependencies []
  :builds {:code {:target :npm-module
                  :runtime :browser
                  :output-dir "node_modules/shadow-cljs"
+                 :js-options {:js-provider :import}
                  :entries [main.app]}}}
