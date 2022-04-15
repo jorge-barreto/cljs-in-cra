@@ -1,7 +1,7 @@
 # Reproducing the Error
 
 ```
-git clone https://github.com/jorge-barreto/cljs-in-cra.git
+git clone -b target-esm-dev https://github.com/jorge-barreto/cljs-in-cra.git
 yarn
 npx shadow-cljs watch code
 yarn start

@@ -25,3 +25,5 @@ yarn-error.log*
 .shadow-cljs
 .clj-kondo
 .lsp
+
+src/generated/*
