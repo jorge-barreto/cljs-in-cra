@@ -3,6 +3,5 @@
  :dependencies []
  :builds {:code {:target :esm
                  :js-options {:js-provider :import}
-                 :output-dir "src/generated"
-                 :modules {:main {:exports {hello main.app/hello
-                                            goodbye main.app/goodbye}}}}}}
+                 :output-dir "src/shadow"
+                 :modules {:index {:exports {scoby main.app/scoby}}}}}}

@@ -13,13 +13,13 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "npx rimraf src/shadow/* && npx shadow-cljs watch code & react-scripts start",
+    "build": "npx rimraf src/shadow/* && npx shadow-cljs release code && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "ignorePatterns": "src/generated/*",
+    "ignorePatterns": "src/shadow/*",
     "extends": [
       "react-app",
       "react-app/jest"

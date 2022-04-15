@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-import { hello } from "./generated/main";
+import { scoby } from "./shadow";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {hello("World")}
+          {scoby()}
         </a>
       </header>
     </div>
