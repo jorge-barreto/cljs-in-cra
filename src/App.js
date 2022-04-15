@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-import { hello } from "shadow-cljs/main.app";
+import { hello } from "./generated/main";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {hello()}
+          {hello("World")}
         </a>
       </header>
     </div>
